@@ -1405,6 +1405,35 @@ body .tornado2 {
           animation: tornado2 4s infinite;
   z-index: 99;
 }
+@media (prefers-color-scheme: dark) {
+  body .frame1, body .frame2 {
+    background-color: #508494;
+  }
+  body .frame1 .ground1, body .frame1 .ground2, body .frame2 .ground1, body .frame2 .ground2 {
+    fill: #4d995e;
+  }
+  body h1, body p {
+    color: white;
+  }
+  body .frame3, body .frame4, body .frame5 {
+    background-color: #3e4f66;
+  }
+  body .frame3 .ground3, body .frame3 .ground4, body .frame3 .ground5, body .frame4 .ground3, body .frame4 .ground4, body .frame4 .ground5, body .frame5 .ground3, body .frame5 .ground4, body .frame5 .ground5 {
+    fill: #198b32;
+  }
+  body .frame6, body .frame7, body .frame8 {
+    background-color: #1e2835;
+  }
+  body .frame6 .ground6, body .frame6 .ground7, body .frame6 .ground8, body .frame7 .ground6, body .frame7 .ground7, body .frame7 .ground8, body .frame8 .ground6, body .frame8 .ground7, body .frame8 .ground8 {
+    fill: #aa6210;
+  }
+  body .frame9, body .frame10, body .frame11 {
+    background-color: #1e2836;
+  }
+  body .frame9 .ground9, body .frame9 .ground10, body .frame9 .ground11, body .frame10 .ground9, body .frame10 .ground10, body .frame10 .ground11, body .frame11 .ground9, body .frame11 .ground10, body .frame11 .ground11 {
+    fill: #82afbd;
+  }
+}
 body .info-txt {
   margin-top: 200px;
   max-width: 400px;
